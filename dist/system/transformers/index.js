@@ -19,7 +19,8 @@ System.register([], function (exports_1, context_1) {
                 require('./template').default,
                 require('./title').default,
                 require('./styles').default,
-                require('./preboot').default
+                require('./preboot').default,
+                require('./meta').default
             ];
         }
     };

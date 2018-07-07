@@ -6,7 +6,8 @@ define(["require", "exports"], function (require, exports) {
         require('./template').default,
         require('./title').default,
         require('./styles').default,
-        require('./preboot').default
+        require('./preboot').default,
+        require('./meta').default
     ];
     // tslint:enable:no-var-requires
     function transform(transformerCtx, options) {
