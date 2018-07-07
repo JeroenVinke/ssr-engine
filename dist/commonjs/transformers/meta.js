@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var utils_1 = require("./utils");
 function default_1(html, transformerCtx, options) {
-    var metaTags = transformerCtx.document.head.querySelector('meta');
+    var metaTags = transformerCtx.document.head.querySelectorAll('meta');
     if (metaTags) {
         var metaTagsArray = Array.prototype.slice.call(metaTags);
         for (var i = 0; i < metaTagsArray.length; i++) {

@@ -2,7 +2,7 @@ System.register(["./utils"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     function default_1(html, transformerCtx, options) {
-        var metaTags = transformerCtx.document.head.querySelector('meta');
+        var metaTags = transformerCtx.document.head.querySelectorAll('meta');
         if (metaTags) {
             var metaTagsArray = Array.prototype.slice.call(metaTags);
             for (var i = 0; i < metaTagsArray.length; i++) {
